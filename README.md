@@ -4,7 +4,7 @@ Homework for Boot Camp Week 6: Python-APIs; Submitted by Corey Lawson-Enos
 
 ## Summary
 * WeatherPy: Study compares geographical latitude's effect on four weather categories--Temperature, Humidity, Cloudiness, and Wind Speed. Includes Northern/Southern hemisphere comparison.
-* VacationPy: Vacation planner for 500+ cities worldwide selected at random. Cites are mapped according to humidity level, including a final map with hotel pins for each city within temperate zone of 70-80&deg F, wind speed less than 10 mph, and zero cloudiness.  
+* VacationPy: Vacation planner for 500+ cities worldwide selected at random. Cites are mapped according to humidity level, including a final map with hotel pins for each city within temperate zone of 70-80° F, wind speed less than 10 mph, and zero cloudiness.  
 
 ## Technologies
 Google Maps, OpenWeatherMap API, citipy, Matplotlib, Pandas, Jupyter Notebook
