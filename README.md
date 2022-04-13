@@ -1,24 +1,23 @@
-# python-api-challenge
+WeatherPy & VacationPy
 
-# Matplotlib-Homework: Pymaceuticals Inc.
-
-Homework for Boot Camp Week 5: Matplotlib; Submitted by Corey Lawson-Enos
+Homework for Boot Camp Week 6: Python-APIs; Submitted by Corey Lawson-Enos
 
 ## Summary
-Pymaceuticals Inc.: Impact analysis of twelve drug regimens on squamous cell carcinoma (SCC) tumor volume over a period of 5 to 45 days, with a summary data focus on Capomulin (Pymaceuticals), Ramicane, Infubinol, and Ceftamin.
+* WeatherPy: Study compares geographical latitude's effect on four weather categories--Temperature, Humidity, Cloudiness, and Wind Speed. Includes Northern/Southern hemisphere comparison.
+* VacationPy: Vacation planner for 500+ cities worldwide selected at random. Cites are mapped according to humidity level, including a final map with hotel pins for each city within temperate zone of 70-80&deg F, wind speed less than 10 mph, and zero cloudiness.  
 
 ## Technologies
-Pandas, Matplotlib, Jupyter Notebook
+Google Maps, OpenWeatherMap API, citipy, Matplotlib, Pandas, Jupyter Notebook
 
 ## Additional Analysis
-* Capomulin's results appear to be one of the most effective treatments in reducing tumor size when compared to three peers--although Ramicane may have slightly better results. Average tumor volume for both Capomulin and Ramicane subjects remained lowest amongst all treatments too, both with the lowest SEM as well.
+* Latitude did not show significant relationship to Humidity, Cloudiness, and Wind Speed categories. Sample humidity plot: 
 
-![alt text](https://github.com/clawson13/Matplotlib-challenge/blob/d1d8acbee7707c4ab16d140749b11977d21ae9a2/images/boxplot.jpg)
+![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Humidity.png)
 
-* Sample data for one mouse shows Capomulin may reduce tumor volume as much as 10% over a 45-day period.
+* Although northern latitude change shows a strong link to temperature, the tie is much weaker in the South; as such, it cannot be construed from the dataset generated that latitude is the only contributing factor to global temperature variance.
 
-![alt text](https://github.com/clawson13/Matplotlib-challenge/blob/b2b86b7e10757dd317c1699e201e05be8b98cd5a/images/linechart.jpg)
+![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Temp_South.png)
 
-* Per scatter plot data provided below, there appears to be a direct correlation between a mouse's weight and tumor volume: a measured correlation coefficient of 0.84.
+* Interactive Google Map displays VacationPy's plotted cities colored by humidity level:
 
-![alt text](https://github.com/clawson13/Matplotlib-challenge/blob/c3c68dd6792fb961021145d1b9a2a19eb26a7ef7/images/regression.jpg)
+![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Heat_Map.html)
