@@ -21,3 +21,7 @@ Google Maps, OpenWeatherMap API, CitiPy, Pandas, NumPy, Scipy, Matplotlib, Jupyt
 * Interactive Google Map displays VacationPy's plotted cities colored by humidity level:
 
 ![alt text](https://github.com/clawson13/python-api-challenge/blob/ba53edee096843f90384e8a38df02067d2372aa0/Images/Heat_Map.png)
+
+## Contact
+E-mail: clawson131@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/corey-lawson-enos/
